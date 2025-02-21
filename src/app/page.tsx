@@ -16,6 +16,7 @@ export default function Home() {
                 src={thumbnail}
                 alt={title}
                 className="w-160 h-40 object-cover rounded-md"
+                unoptimized
               />
             )}
             <div>
