@@ -1,7 +1,7 @@
 ---
 title: "Introduce"
 date: "2025-02-21"
-thumbnail: ""
+thumbnail: "/images/3.jpg"
 ---
 
 안녕하세요! 저는 gyuseon입니다. 직업은 개발자입니다.
