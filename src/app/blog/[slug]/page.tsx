@@ -1,4 +1,5 @@
 import { getPostData, getSortedPostsData } from "@/lib/posts";
+import Image from "next/image";
 
 export async function generateStaticParams() {
   const posts = getSortedPostsData();
@@ -15,7 +16,7 @@ export default async function BlogPostPage({ params }: any) {
   return (
     <article className="max-w-2xl mx-auto p-8">
       {postData.thumbnail && (
-        <img
+        <Image
           src={postData.thumbnail}
           alt={postData.title}
           className="w-full h-64 object-cover mb-8 rounded-lg"

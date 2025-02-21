@@ -1,5 +1,6 @@
 import { getSortedPostsData } from "@/lib/posts";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   const allPosts = getSortedPostsData();
@@ -11,7 +12,7 @@ export default function Home() {
         {allPosts.map(({ id, date, title, thumbnail }) => (
           <li key={id} className="mb-4">
             {thumbnail && (
-              <img
+              <Image
                 src={thumbnail}
                 alt={title}
                 className="w-160 h-40 object-cover rounded-md"
