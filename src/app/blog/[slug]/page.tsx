@@ -19,7 +19,9 @@ export default async function BlogPostPage({ params }: any) {
         <Image
           src={postData.thumbnail}
           alt={postData.title}
-          className="w-full h-64 object-cover mb-8 rounded-lg"
+          width={600}
+          height={300}
+          className="object-cover mb-8 rounded-md"
         />
       )}
       <h1 className="text-4xl font-bold mb-4">{postData.title}</h1>

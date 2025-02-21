@@ -15,7 +15,9 @@ export default function Home() {
               <Image
                 src={thumbnail}
                 alt={title}
-                className="w-160 h-40 object-cover rounded-md"
+                width={400}
+                height={100}
+                className="object-cover rounded-md"
                 unoptimized
               />
             )}

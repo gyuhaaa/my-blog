@@ -8,6 +8,12 @@ const nextConfig: NextConfig = {
         hostname: "fastly.picsum.photos",
         pathname: "/**", // 모든 경로 허용
       },
+      {
+        protocol: "http",
+        hostname: "192.168.0.6",
+        port: "3000",
+        pathname: "/**", // 모든 경로 허용
+      },
     ],
   },
 };
