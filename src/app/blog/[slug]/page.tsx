@@ -22,6 +22,7 @@ export default async function BlogPostPage({ params }: any) {
           width={600}
           height={300}
           className="object-cover mb-8 rounded-md"
+          unoptimized
         />
       )}
       <h1 className="text-4xl font-bold mb-4">{postData.title}</h1>
